@@ -4,6 +4,7 @@ const application = express();
 
 application.get("/", (request, response) =>
 {
+	console.log("New request");
 	response.send("Yo!");
 });
 
